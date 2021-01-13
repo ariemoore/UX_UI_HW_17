@@ -1,12 +1,20 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+.blockNav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: blue;
 }
 
 .logo {
     width: 23%;
     padding: 1%;
     text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    background-color: gray;
+    
 }
 
 nav {
@@ -40,11 +48,3 @@ footer {
     transform: none;
 }
 
-ul footer {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-}
