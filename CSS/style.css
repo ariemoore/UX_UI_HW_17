@@ -1,8 +1,10 @@
 .blockNav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin: 0 auto;
-    background-color: blue;
+    background-color: lightgray;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
 }
 
 .logo {
@@ -13,13 +15,21 @@
 
 .btn {
     padding: 10px;
-    background-color: gray;
-    
+    margin: 0 10px 0 10px;
+    color: darkslategray;
 }
 
 nav {
-    width: 73%;
-    padding: 1%;
+    background-color: lightseagreen;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 ul {
@@ -32,6 +42,7 @@ ul {
     padding: 25px;
     border-radius: 25%;
     max-width: 25%;
+    
 
 }
 
@@ -41,10 +52,12 @@ ul {
 }
 
 footer {
-    background-color: #373738;
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
+    background-color: lightgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
 }
 
